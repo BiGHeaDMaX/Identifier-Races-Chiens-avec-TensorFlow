@@ -1,10 +1,20 @@
 # **Introduction**
-Ce projet vise à élaborer un modèle qui permet de de classer des images de chiens en fonction de la race du chien présent sur l'image<br>
-Ce travail est basé sur les images du [*Stanford Dogs Dataset*](http://vision.stanford.edu/aditya86/ImageNetDogs/).
+Ce projet vise à élaborer un modèle qui permet de prédire la race d'un chien présent sur une image.<br>
+Les images utilisées pour l'entraînement proviennent du [*Stanford Dogs Dataset*](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
 # **Contenu de ce repository**
-- **01 - XXX** : xxx.
-- **02 - xxx** : xxx.
-- **03 - xxx** : xxx.
-- **04 - xxx** : xxx.
+- **01 - Analyse et prétraitements.ipynb** : rapide analyse exploratoire du dataset et prétraitements des images.
+- **02 - Modèle personnel.ipynb** : élaboration et entraînement complet d'un réseau de neurones.
+- **03 - Transfert learning.ipynb** : utilisation de modèles préentraînés dont nous réentraînons les dernières couches pour adapter ces derniers à notre problématique.
+- **04 - Application.py** : application Streamlit avec le meilleur modèle pour faire des prédictions sur de nouvelles photos.
 - **05 - Présentation.pptx** : support de présentation.
+
+<div class="alert alert-info">
+<i>02 - Modèle personnel.ipynb</i> et <i>03 - Transfert learning.ipynb</i> ont été conçus pour fonctionner avec une carte graphique nVidia.
+</div>
+
+# **Utiliser une carte graphique pour accélérer les calculs avec Tensorflow sous Windows**
+Il n'est plus possible d'utiliser directement sa carte graphique avec Tensorflow sous Windows. Il va falloir lancer un système Linux, pour ce faire, nous allons utiliser WSL (Windows Subsystem for Linux).<br>
+
+## **Installer une distribution Linux**
+Sous Windows, lancer une invite de commande et taper : ```wsl --install```
