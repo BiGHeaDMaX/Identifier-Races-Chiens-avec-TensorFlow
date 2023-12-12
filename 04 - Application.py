@@ -1,7 +1,11 @@
 #######################################################
 #        APP DE PREDICTION DE RACES DE CHIEN          #
-#     Fonctionne avec Streamlit version: 1.29.0       #
 # A lancer avec : streamlit run "04 - Application.py" #
+#######################################################
+#               Fonctionne avec :                     #
+#               - streamlit 1.29.0                    #
+#               - tensorflow 2.15.0                   #
+#               - numpy 1.26.0                        #
 #######################################################
 
 # On commence par importer streamlit
