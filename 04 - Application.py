@@ -32,15 +32,15 @@ with st.spinner('⏳ Chargement des bibliothèques, veuillez patienter...'):
 # Classes sur lesquelles avait été entraîné notre modèle
 class_names = [
 "n02085620-Chihuahua",
-"n02085782-Japanese_spaniel",
-"n02085936-Maltese_dog",
+"n02085782-Japanese Spaniel",
+"n02085936-Maltese Dog",
 "n02086079-Pekinese",
 "n02086240-Shih-Tzu",
-"n02086646-Blenheim_spaniel",
-"n02086910-papillon",
-"n02087046-toy_terrier",
-"n02087394-Rhodesian_ridgeback",
-"n02088094-Afghan_hound",
+"n02086646-Blenheim Spaniel",
+"n02086910-Papillon",
+"n02087046-Toy Terrier",
+"n02087394-Rhodesian Ridgeback",
+"n02088094-Afghan Hound",
 ]
 # Création d'un string pour affichier
 # les classes sur la page de l'app
