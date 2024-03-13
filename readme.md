@@ -12,6 +12,9 @@ Les images utilisées pour l'entraînement proviennent du [*Stanford Dogs Datase
 > **Note**<br>
 <i>02 - Modèle personnel.ipynb</i> et <i>03 - Transfert learning.ipynb</i> ont été conçus pour fonctionner avec une carte graphique nVidia. Ils peuvent fonctionner sans carte graphique, mais leur exécution sera beaucoup plus longue.
 
+# **Article associé**
+Retrouvez l'article de présentation de ce projet [ici](https://bigheadmax.github.io/05-classer-des-images.html).
+
 # **Utiliser une carte graphique pour accélérer les calculs avec Tensorflow sous Windows**
 Il n'est plus possible d'utiliser directement sa carte graphique avec Tensorflow sous Windows. Il va falloir lancer un système Linux, pour ce faire, nous allons utiliser WSL (Windows Subsystem for Linux).<br>
 Le plus souvent, les problèmes proviennent d'une incompatibilité entre Tensorflow et les drivers nVidia, il ne faut donc pas toujours utiliser les dernières versions.
